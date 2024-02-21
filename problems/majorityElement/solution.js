@@ -9,7 +9,7 @@ function majorityElement(array) {
       candidate = item;
     }
 
-    if (candidate === current) {
+    if (candidate === item) {
       count++;
     } else {
       count--;
