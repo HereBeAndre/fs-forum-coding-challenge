@@ -12,14 +12,18 @@ appears in over half od the respective array's indices.
 
 You can assume that the input array will always have a majority element.
 
-Sample input
+Sample inputs
 
 ```
+array = [5]
+array = [1, 2, 1]
 array = [1, 2, 3, 2, 2, 1, 2]
 ```
 
-Sample output
+Sample outputs
 
 ```
-2 // Occurs in 4/7 array indices, making it the majority element
+5 // Only element in the array
+1 // Occurs in 2/3 array indices
+2 // Occurs in 4/7 array indices
 ```
