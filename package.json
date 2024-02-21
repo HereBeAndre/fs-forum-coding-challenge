@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test:majority": "jest majorityElement.test.js"
+    "test:majority": "jest majorityElement.test.js",
+    "test:semordnilap": "jest semordnilap.test.js"
   },
   "devDependencies": {
     "jest": "^29.7.0",
